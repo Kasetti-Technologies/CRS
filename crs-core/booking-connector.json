@@ -1,0 +1,18 @@
+{
+  "name": "booking-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+    "database.hostname": "postgres",
+    "database.port": "5432",
+    "database.user": "docker",
+    "database.password": "docker",
+    "database.dbname": "crsdb",
+    "database.server.name": "crsdbserver",
+    "schema.include.list": "bookingschema",
+    "table.include.list": "bookingschema.outbox_events",
+    "plugin.name": "pgoutput",
+    "slot.name": "booking_slot",
+    "tombstones.on.delete": "false"
+  }
+}

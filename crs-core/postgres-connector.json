@@ -1,0 +1,17 @@
+{
+  "name": "postgres-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+    "database.hostname": "postgres",
+    "database.port": "5432",
+    "database.user": "docker",
+    "database.password": "docker",
+    "database.dbname": "crsdb",
+    "database.server.name": "crsdbserver",
+    "schema.include.list": "slotschema",
+    "table.include.list": "slotschema.slots",
+    "plugin.name": "pgoutput",
+    "slot.name": "debezium_slot"
+  }
+}
