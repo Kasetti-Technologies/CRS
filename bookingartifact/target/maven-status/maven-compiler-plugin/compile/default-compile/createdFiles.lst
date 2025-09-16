@@ -1,0 +1,7 @@
+com/crsgroup/bookingartifact/BookingartifactApplication.class
+com/crsgroup/bookingartifact/controller/BookingController.class
+com/crsgroup/bookingartifact/repository/OutboxRepository.class
+com/crsgroup/bookingartifact/model/Appointment.class
+com/crsgroup/bookingartifact/repository/AppointmentRepository.class
+com/crsgroup/bookingartifact/model/OutboxEvent.class
+com/crsgroup/bookingartifact/service/BookingService.class
