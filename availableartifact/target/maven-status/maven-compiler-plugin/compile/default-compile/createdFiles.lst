@@ -1,0 +1,5 @@
+com/crsgroup/availableartifact/model/Slot.class
+com/crsgroup/availableartifact/service/SlotService.class
+com/crsgroup/availableartifact/AvailableartifactApplication.class
+com/crsgroup/availableartifact/repository/SlotRepository.class
+com/crsgroup/availableartifact/controller/SlotController.class
